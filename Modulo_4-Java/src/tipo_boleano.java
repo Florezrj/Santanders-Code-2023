@@ -18,5 +18,10 @@ public class tipo_boleano {
         // false || false = false
 
         System.out.println(vamosAPraia);
+
+        // OPERADOR TERNARIO
+        //       1º TERMO: Condição  | 2º: Caso True  | 3º: Caso False
+        String mensagem = fazendoSol ? "Está sol! B)" : "Não está sol hoje! :(";
+        System.out.println(mensagem);
     }
 }
