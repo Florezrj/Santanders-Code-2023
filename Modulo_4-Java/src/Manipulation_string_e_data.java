@@ -28,7 +28,7 @@ public class Manipulation_string_e_data {
             saudacao = "";
         }
 
-        System.out.printf("Olá %s, hoje é %s. %s! %n", nome, diaDaSemana, saudacao);
+        System.out.printf("Olá %s, hoje é %s. %s! %n", nome, diaDaSemana, saudacao.toUpperCase());
 
     }
 }
